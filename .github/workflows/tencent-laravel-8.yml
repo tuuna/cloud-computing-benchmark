@@ -26,4 +26,4 @@ jobs:
         run: |
           rm -rf laravel-demo
           composer create-project --prefer-dist laravel/laravel laravel-demo "8.*"
-          cd laravel-demo && composer require --dev qcloud/cos-sdk-v5:dev-guzzle7
+          cd laravel-demo && composer require qcloud/cos-sdk-v5
